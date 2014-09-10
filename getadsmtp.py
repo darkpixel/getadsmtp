@@ -72,19 +72,32 @@ if arg.exchange_users or arg.exchange_all:
     print_user_list(filter)
 
 if arg.exchange_groups or arg.exchange_all:
-    filter = "(|(&(objectCategory=group)(groupType:1.2.840.113556.1.4.804:=8)(!(groupType:1.2.840.113556.1.4.804:=2147483648))(mailNickname=*))(&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483656)(mailNickname=*))(&(objectCategory=group)(!(groupType:1.2.840.113556.1.4.804:=8))(mailNickname=*))(&(objectCategory=msExchDynamicDistributionList)(mailNickname=*)))"
+    if arg.disabled:
+        filter = "(&(|(&(objectCategory=group)(groupType:1.2.840.113556.1.4.804:=8)(!(groupType:1.2.840.113556.1.4.804:=2147483648))(mailNickname=*))(&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483656)(mailNickname=*))(&(objectCategory=group)(!(groupType:1.2.840.113556.1.4.804:=8))(mailNickname=*))(&(objectCategory=msExchDynamicDistributionList)(mailNickname=*)))%s)" % (DisabledFilter)
+    else:
+        filter = "(&(|(&(objectCategory=group)(groupType:1.2.840.113556.1.4.804:=8)(!(groupType:1.2.840.113556.1.4.804:=2147483648))(mailNickname=*))(&(objectCategory=group)(groupType:1.2.840.113556.1.4.803:=2147483656)(mailNickname=*))(&(objectCategory=group)(!(groupType:1.2.840.113556.1.4.804:=8))(mailNickname=*))(&(objectCategory=msExchDynamicDistributionList)(mailNickname=*)))%s)" % (EnabledFilter)
     print_user_list(filter)
 
 if arg.exchange_contacts or arg.exchange_all:
-    filter = "(&(objectClass=contact)(mailNickname=*))"
+    if arg.disabled:
+        filter = "(&(objectClass=contact)(mailNickname=*)%s)" %(DisabledFilter)
+    else:
+        filter = "(&(objectClass=contact)(mailNickname=*)%s)" %(EnabledFilter)
     print_user_list(filter)
 
 if arg.exchange_public or arg.exchange_all:
-    filter = "(&(objectCategory=publicFolder)(mailNickname=*))"
+    if arg.disabled:
+        filter = "(&(objectCategory=publicFolder)(mailNickname=*)%s)" %(DisabledFilter)
+    else:
+        filter = "(&(objectCategory=publicFolder)(mailNickname=*)%s)" %(EnabledFilter)
+
     print_user_list(filter)
 
 if arg.exchange_rooms or arg.exchange_all:
-    filter = "(&(mailNickname=*)(|(msExchRecipientDisplayType=7)(msExchRecipientDisplayType=-2147481850)))"
+    if arg.disabled:
+        filter = "(&(mailNickname=*)(|(msExchRecipientDisplayType=7)(msExchRecipientDisplayType=-2147481850))%s)" % (DisabledFilter)
+    else:
+        filter = "(&(mailNickname=*)(|(msExchRecipientDisplayType=7)(msExchRecipientDisplayType=-2147481850))%s)" %(EnabledFilter)
     print_user_list(filter)
 
 if arg.non_exchange:
