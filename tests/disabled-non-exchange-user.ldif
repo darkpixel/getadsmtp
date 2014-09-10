@@ -1,0 +1,53 @@
+dn: CN=Disabled RC User,CN=Users,DC=cust,DC=local
+changetype: add
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: Disabled RC User
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=cust,DC=local
+accountExpires: 9223372036854775807
+badPasswordTime: 130514154558915298
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+displayName: Disabled RC User
+distinguishedName: CN=Disabled RC User,CN=Users,DC=cust,DC=local
+givenName: Disabled RC
+internetEncoding: 1310720
+lastLogoff: 0
+lastLogon: 130523612220123783
+lastLogonTimestamp: 130522536085002612
+legacyExchangeDN: /o=Cust/ou=First Administrative Group/cn=Recipients/cn=disabledrc
+lockoutTime: 0
+logonCount: 39024
+mail: disabledrc@welovecust.com
+mailNickname: disabledrc
+mAPIRecipient: FALSE
+memberOf: CN=xyzzy,CN=Users,DC=cust,DC=local
+msExchALObjectVersion: 47
+msPKIRoamingTimeStamp:: RFG+rqvZzgHRULxA/0LPAQ==
+name: Disabled RC User
+objectGUID:: VQy4BfsFq0Wnxtv4oTOdjw==
+objectSid:: AQUAAAAAAAUVAAAArywQfRZDqds4BmPmrCEAAA==
+primaryGroupID: 513
+proxyAddresses: smtp:disabledrc@cust.local
+proxyAddresses: SMTP:disabledrc@welovecust.com
+proxyAddresses: X400:c=US;a= ;p=Cust;o=Exchange;s=User;g=Disabled RC;
+pwdLastSet: 130341278075930999
+sAMAccountName: disabledrc
+sAMAccountType: 805306368
+showInAddressBook: CN=Default Global Address List,CN=All Global Address List
+ s,CN=Address Lists Container,CN=Cust,CN=Microsoft Exchange,CN=Services,CN
+ =Configuration,DC=cust,DC=local
+sn: User
+targetAddress: SMTP:disabledrc@welovecust.com
+textEncodedORAddress: c=US;a= ;p=Cust;o=Exchange;s=User;g=Disabled RC;
+userAccountControl: 514
+userPrincipalName: disabledrc@cust.local
+uSNChanged: 14648915
+uSNCreated: 18973
+whenChanged: 20140814214917.0Z
+whenCreated: 20121219171546.0Z
+

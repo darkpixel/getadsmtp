@@ -1,0 +1,27 @@
+dn: DC=cust,DC=local
+changetype: add
+objectClass: domainDNS
+objectClass: domain
+objectClass: top
+dc: cust
+instanceType: 5
+objectCategory: CN=Domain-DNS,CN=Schema,CN=Configuration,DC=cust,DC=local
+creationTime: 130539984108092527
+distinguishedName: DC=cust,DC=local
+
+
+dn: CN=Users,DC=cust,DC=local
+changetype: add
+objectClass: container
+objectClass: top
+cn: Users
+instanceType: 4
+objectCategory: CN=Container,CN=Schema,CN=Configuration,DC=cust,DC=local
+description: Default container for upgraded user accounts
+distinguishedName: CN=Users,DC=cust,DC=local
+name: Users
+objectGUID:: u04r8oXS2Ei9Y5sN0abLVg==
+whenChanged: 20130703162137.0Z
+whenCreated: 20070807162319.0Z
+
+

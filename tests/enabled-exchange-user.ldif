@@ -1,0 +1,86 @@
+dn: CN=Enabled Exchange User,CN=Users,DC=cust,DC=local
+changetype: add
+objectClass: user
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Enabled Exchange User
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=cust,DC=local
+displayName: Enabled Exchange User
+distinguishedName: CN=Enabled Exchange User,CN=Users,DC=cust,DC=local
+givenName: Enabled Exchange
+homeMDB: CN=CORP,CN=MAILSTORE,CN=InformationStore,CN=USLOG00SRV01,CN=Servers
+ ,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Group
+ s,CN=Cust,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=cust,DC
+ =local
+homeMTA: CN=Microsoft MTA,CN=USLOG00SRV01,CN=Servers,CN=Exchange Administrat
+ ive Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=cust,CN=Microsoft
+  Exchange,CN=Services,CN=Configuration,DC=cust,DC=local
+lastLogoff: 0
+lastLogon: 130548491018892164
+lastLogonTimestamp: 130540667963834368
+legacyExchangeDN: /o=cust/ou=First Administrative Group/cn=Recipients/cn=enabledexchange
+lockoutTime: 0
+logonCount: 6687
+mail: enabledexchange@cust.tld
+mailNickname: enabledexchange
+mDBUseDefaults: TRUE
+memberOf: CN=systems,CN=Users,DC=cust,DC=local
+msExchALObjectVersion: 1381
+msExchHomeServerName: /o=cust/ou=Exchange Administrative Group (FYDIBOHF23
+ SPDLT)/cn=Configuration/cn=Servers/cn=USLOG00SRV01
+msExchMailboxGuid:: 0gY7yZXE0EOodfaWzjSETw==
+msExchMailboxSecurityDescriptor:: AQAE77+9eAAAAO+/vQAAAAAAAAAUAAAABABkAAEAAA
+ AAAhQAAwACAAEBAAAAAAAFCgAAAO+/vVFhAhhcRALvv71JCwDvv73vv71EAu+/vVVpAu+/vQtoA
+ u+/vR9dAlB4CwDvv70fXALvv71OXQIw77+9NwLvv703YgLvv73vv71nAu+/vWpnAmjvv71dAu+/
+ vWdVAu+/ve+/vUMCUG1DAgEFAAAAAAAFFQAAAO+/vSwQfRZD77+977+9OAZj77+977+9AQAAAQU
+ AAAAAAAUVAAAA77+9LBB9FkPvv73vv704BmPvv73vv70BAAA=
+msExchMobileMailboxFlags: 1
+msExchPoliciesIncluded: {D244DC0B-16CB-400B-9343-DDDF3273273C},{26491CFC-9E5
+ 0-4857-861B-0CB8DF22B5D7}
+msExchRecipientDisplayType: 1073741824
+msExchRecipientTypeDetails: 1
+msExchUserAccountControl: 0
+msExchUserCulture: en-US
+msExchVersion: 4535486012416
+name: Enabled Exchange
+objectGUID:: Wr+igKbGW0qhB8iU1lD3Ug==
+objectSid:: AQUAAAAAAAUVAAAArywQfRZDqds4BmPmhgQAAA==
+primaryGroupID: 513
+protocolSettings:: SFRUUMKnMcKnMcKnwqfCp8KnwqfCpw==
+protocolSettings:: T1dBwqcx
+proxyAddresses: SMTP:enabledexchange@cust.tld
+proxyAddresses: smtp:enabledexchange@cust.local
+proxyAddresses: X400:C=US;A= ;P=Cust;O=Exchange;S=User;G=Enabled Exchagne;
+pwdLastSet: 130407697985046409
+sAMAccountName: enabledexchange
+sAMAccountType: 805306368
+showInAddressBook: CN=Exchange-Only-Users,CN=All Global Address Lists,CN=Add
+ ress Lists Container,CN=Cust,CN=Microsoft Exchange,CN=Services,CN=Configu
+ ration,DC=cust,DC=local
+showInAddressBook: CN=Default Global Address List,CN=All Global Address List
+ s,CN=Address Lists Container,CN=Cust,CN=Microsoft Exchange,CN=Services,CN
+ =Configuration,DC=cust,DC=local
+showInAddressBook: CN=All Users,CN=All Address Lists,CN=Address Lists Contai
+ ner,CN=Cust,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=cust,
+ DC=local
+sn: User
+submissionContLength: 40960
+textEncodedORAddress: c=US;a= ;p=Cust;o=Exchange;s=User;g=enabledexchange;
+userAccountControl: 66080
+ bLtgc6IB9kwB3aHigN7uMJCegi/U8KgQ/DzUCf5piOZsNa6WLO0Gyu9kJ+DRWjoGkh+88baIcjs
+ 31vQwgpY1UszCf/MU2+N5f3tJuyaWH3vG8Ov8U5Vskq3sFxQIDokFuD2jeJyETBusvzW23oSPNq
+ 49Ki9UfaGtHZbDlRz8hvdYSqSImYiXdMpGw9IqSUvDXfZqsFnkneDtxbrqihuOJJZQPFCLJe0vw
+ wKQZMh97ChdsusI1SX3Gus8+fSyU2aJheutTb0sX4fU8tGB/bd6Nn15ToZry5eV8qXNIHUFRJSV
+ tZ6eDR/6Ku0fLPwAMDCOj6s8PMgLUTd8IIwMc4iwh5EftFvfHKo2YTanPgKRLe94nbzO8ZVADSJ
+ x5wGNrO6UT16SSND83QIvG9O6DMWbzCapesHWP1EPMhu00YAhkzcF/bEONPmrspF1Mg6Vf6gkw5
+ XN0s4cM9V3FPM4Zg0BhDIDI5dYj9OXXAyp8jLBLr2GeUheR4o7Oratr2JaRU6+eogB9AeT2tand
+ dSojjeTvX5w+6d3zoABAjKEhjwnN4=
+userParameters:: bTogICAgICAgICAgICAgICAgICAgIGQJICAgICAgICAgICAgICAgICAgICA
+ gICAg
+userPrincipalName: enabledexchange@cust.local
+uSNChanged: 15801332
+uSNCreated: 18403
+whenChanged: 20140907161714.0Z
+whenCreated: 20070814164634.0Z
+

@@ -1,0 +1,64 @@
+dn: CN=enablednonexchangeuser,CN=Users,DC=cust,DC=local
+changetype: add
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: Enabled Non-Exchange User
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=cust,DC=local
+accountExpires: 9223372036854775807
+badPasswordTime: 130434444899139136
+badPwdCount: 0
+c: US
+co: United States
+codePage: 0
+company: 
+countryCode: 840
+department: 
+displayName: Enabled Non-Exchange User
+distinguishedName: CN=Enabled Non-Exchange User,CN=Users,DC=cust,DC=local
+dSCorePropagationData: 16010714223649.0Z
+dSCorePropagationData: 20130725233506.0Z
+dSCorePropagationData: 20130725233725.0Z
+dSCorePropagationData: 20130815220025.0Z
+dSCorePropagationData: 20140421181624.0Z
+givenName: Enabled Non-Exchange
+initials: C
+internetEncoding: 1310720
+lastLogon: 130541746470594439
+lastLogonTimestamp: 130541466511930598
+legacyExchangeDN: /o=Cust/ou=First Administrative Group/cn=Recipients/cn=enablednonexchangeuser
+lockoutTime: 0
+logonCount: 7954
+mail: enablednonexchangeuser@cust.tld
+mailNickname: enablednonexchangeuser
+mAPIRecipient: FALSE
+memberOf: CN=ExMerge,CN=Users,DC=cust,DC=local
+msExchALObjectVersion: 275
+msExchHideFromAddressLists: TRUE
+msExchPoliciesIncluded: {D244DC0B-16CB-400B-9343-DDDF3273273C},{26491CFC-9E5
+ 0-4857-861B-0CB8DF22B5D7}
+msNPAllowDialin: TRUE
+name: Enabled Non-Exchange User
+objectGUID:: C30b4xP9Z0GxGj/ho/8gow==
+objectSid:: AQUAAAAAAAUVAAAArywQfRZDqds4BmPmPAUAAA==
+primaryGroupID: 513
+proxyAddresses: smtp:enablednonexchangeuser@cust.local
+proxyAddresses: SMTP:enablednonexchangeuser@welovecust.com
+proxyAddresses: X400:c=US;a= ;p=Cust;o=Exchange;s=User;g=Enabled Non-Exchange;i=C;
+pwdLastSet: 129001901553525929
+sAMAccountName: enablednonexchangeuser
+sAMAccountType: 805306368
+sn: User
+targetAddress: SMTP:enablednonexchangeuser@welovecust.com
+textEncodedORAddress: c=US;a= ;p=Cust;o=Exchange;s=User;g=Enabled Non-Exchange;i=C;
+userAccountControl: 66048
+userParameters:: bTogICAgICAgICAgICAgICAgICAgIGQJICAgICAgICAgICAgICAgICAgICA
+ gICAg
+userPrincipalName: enablednonexchangeuser@cust.local
+uSNChanged: 15533506
+uSNCreated: 18080
+whenChanged: 20140902155051.0Z
+whenCreated: 20080415155451.0Z
+
