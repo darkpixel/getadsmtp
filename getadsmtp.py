@@ -69,7 +69,6 @@ if arg.exchange_users or arg.exchange_all:
         filter = "(&(objectClass=user)(objectCategory=person)(mailNickname=*)(msExchHomeServerName=*)%s)" %(DisabledFilter)
     else:
         filter = "(&(objectClass=user)(objectCategory=person)(mailNickname=*)(msExchHomeServerName=*)%s)" %(EnabledFilter)
-    print filter
     print_user_list(filter)
 
 if arg.exchange_groups or arg.exchange_all:
